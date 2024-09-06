@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  dns:
+    container_name: dns
+    image: coredns/coredns:latest
+    command: ["-conf", "/root/Corefile"]
+    ports:
+      - "1053:53/udp"
+    volumes:
+      - .:/root

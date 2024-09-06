@@ -1,0 +1,4 @@
+untalsanders.dev. IN SOA ns1.untalsanders.dev. info.untalsanders.dev. 2024090500 7200 3600 1209600 3600
+
+server1.untalsanders.dev.   IN  A       192.168.100.26
+www.untalsanders.dev.       IN  CNAME   server1
